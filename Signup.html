@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesignup.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <title>PassDefender</title>
 </head>
 <body>
@@ -22,26 +24,26 @@
         <h1>PassDefender Sign Up</h1>
 
         <div class="select">
-            <form>
+            <form action="signup.php" method="POST">
                 <p>First Name:</p>
-                <input class="input1" type="text" id="firstName" placeholder="First Name"><br>
+                <input class="input1" name="firstName" type="text" id="firstName" placeholder="First Name"><br>
                 <p>Last Name:</p>
-                <input class="input1" type="text" id="lastName"><br>
+                <input class="input1" name="lastName" type="text" id="lastName"><br>
                 <p>Email:</p>
-                <input class="input1" type="text" id="email"><br>
+                <input class="input1" name="email" type="text" id="email"><br>
                 <p>Question 1:</p>
-                <input class="input1" type="text" id="security1"><br>
+                <input class="input1" name="security1" type="text" id="security1"><br>
                 <p>Question 2:</p>
-                <input class="input1" type="text" id="security2"><br>
+                <input class="input1" name="security2" type="text" id="security2"><br>
                 <p>Question 3</p>
-                <input class="input1" type="text" id="security3"><br>
+                <input class="input1" name="security3" type="text" id="security3"><br>
                 <p>Question 4:</p>
-                <input class="input1" type="text" id="security4"><br>
+                <input class="input1" name="security4" type="text" id="security4"><br>
                 <p>Question 5:</p>
-                <input class="input1" type="text" id="security5"><br>
+                <input class="input1" name="security5" type="text" id="security5"><br>
                 <p>Question 6:</p>
-                <input class="input1" type="text" id="security6"><br>
-                <button id="button">Submit</button>
+                <input class="input1" name="security6" type="text" id="security6"><br>
+                <button id="button" name="submit">Submit</button>
                 <h5>Already have an account? <a href="Login.html">Login</a></h5>
                 <div id="msg">
                     <pre></pre>

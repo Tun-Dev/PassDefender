@@ -41,11 +41,6 @@ const save = (ev) => {
     console.warn('added' , {users});
     let pre = document.querySelector('#msg pre');
     pre.textContent = '\n' + JSON.stringify(users, '\t', 2)
-
-    // localStorage.setItem('MyUserList', JSON.stringify(users));
-    // const fs = require('fs');
-    // // const jsonstring = JSON.stringify(user);
-    // fs.writeFile('./user.json', jsonstring)
     
 }
 document.addEventListener('DOMContentLoaded', ()=>{
