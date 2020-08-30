@@ -1,57 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesignup.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <title>PassDefender</title>
-</head>
-<body>
-    <div id="header">
-        <div class="img">
-            <img class="img1" src="images/Passkeeper42.jpg" alt="">
-        </div>
-        <div class="links">
-            <ul>
-               <li><a href="AboutUs.html">About Us</a></li>
-               <li><a href="Login.html">Login</a></li> 
-            </ul>
-        </div>
-    </div>
-    <div class="body1">
-        <h1>PassDefender Sign Up</h1>
 
-        <div class="select">
-            <form action="signup.php" method="POST">
-                <p>First Name:</p>
-                <input class="input1" name="firstName" type="text" id="firstName" placeholder="First Name"><br>
-                <p>Last Name:</p>
-                <input class="input1" name="lastName" type="text" id="lastName"><br>
-                <p>Email:</p>
-                <input class="input1" name="email" type="text" id="email"><br>
-                <p>Question 1:</p>
-                <input class="input1" name="security1" type="text" id="security1"><br>
-                <p>Question 2:</p>
-                <input class="input1" name="security2" type="text" id="security2"><br>
-                <p>Question 3</p>
-                <input class="input1" name="security3" type="text" id="security3"><br>
-                <p>Question 4:</p>
-                <input class="input1" name="security4" type="text" id="security4"><br>
-                <p>Question 5:</p>
-                <input class="input1" name="security5" type="text" id="security5"><br>
-                <p>Question 6:</p>
-                <input class="input1" name="security6" type="text" id="security6"><br>
-                <button id="button" name="submit">Submit</button>
-                <h5>Already have an account? <a href="Login.html">Login</a></h5>
-                <div id="msg">
-                    <pre></pre>
-                </div>
-            </form>
-            
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesignup.css">
+  <link rel="stylesheet" href="nav.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <title>PassDefender</title>
+</head>
+
+<body>
+  <div id="header">
+    <div class="img">
+      <img class="img1" src="images/Passkeeper42.jpg" alt="">
     </div>
-    <script src="scriptsignup.js"></script>
+    <div class="links">
+      <ul>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Login.html">Login</a></li>
+      </ul>
+    </div>
+    <div id="openButton" class="mobile__hamburger">
+      <div></div>
+    </div>
+  </div>
+  <div id="myModal" class="mobile__nav__bg">
+    <div class="mobile__nav">
+      <div id="closeBtn" class="closeBtn">
+        <div></div>
+      </div>
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="body1">
+    <h1>PassDefender Sign Up</h1>
+
+    <div class="select">
+      <form action="signup.php" method="POST">
+        <p>First Name:</p>
+        <input class="input1" name="firstName" type="text" id="firstName" placeholder="First Name"><br>
+        <p>Last Name:</p>
+        <input class="input1" name="lastName" type="text" id="lastName"><br>
+        <p>Email:</p>
+        <input class="input1" name="email" type="text" id="email"><br>
+        <p>Question 1:</p>
+        <input class="input1" name="security1" type="text" id="security1"><br>
+        <p>Question 2:</p>
+        <input class="input1" name="security2" type="text" id="security2"><br>
+        <p>Question 3</p>
+        <input class="input1" name="security3" type="text" id="security3"><br>
+        <p>Question 4:</p>
+        <input class="input1" name="security4" type="text" id="security4"><br>
+        <p>Question 5:</p>
+        <input class="input1" name="security5" type="text" id="security5"><br>
+        <p>Question 6:</p>
+        <input class="input1" name="security6" type="text" id="security6"><br>
+        <button id="button" name="submit">Submit</button>
+        <h5>Already have an account? <a href="Login.html">Login</a></h5>
+        <div id="msg">
+          <pre></pre>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <script src="scriptsignup.js"></script>
+  <script src="opennav.js"></script>
 </body>
+
 </html>
