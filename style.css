@@ -1,81 +1,76 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.img1 {
-  width: 32px;
+.img1{
+    width: 32px;
+
 }
 
 .links a {
-  padding: 10px 17px;
-  margin: 0 .25rem;
-  color: black;
-  text-decoration: none;
+    padding: 10px 17px;
+    margin: 0 .25rem;
+    color: black;
+    text-decoration: none;
 }
 
 .links a:hover {
-  background: #ef807e;
-  color: white;
-  border-radius: .25rem;
+    background: #ef807e;
+    color: white;
+    border-radius: .25rem;
 }
 
 #header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 5%;
-  box-shadow: 0 0 9px 0px #00000017;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    box-shadow: 0 0 9px 0px #00000017;
+}
+  
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.body1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 250px;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    font-weight: 400;
 }
 
-li {
-  list-style: none;
-  display: inline-block;
+button{
+    width: 138px;
+    height:40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+button:hover{
+    width: 138px;
+    height:40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background: #F0807F;
+    cursor: pointer;
+    transition: 0.7s;
+    color: white;
 }
 
-.body1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 85vh;
-  text-align: center;
+button:active{
+    transform: translateY(4px);
+    transition: none;
 }
-
-h1 {
-  font-size: 60px;
-  font-weight: 400;
-}
-
-button {
-  width: 138px;
-  height: 40px;
-  font-size: 18px;
-  border-radius: 20px;
-  border: none;
-  background: none;
-  outline: none;
-}
-
-button:hover {
-  width: 138px;
-  height: 40px;
-  font-size: 18px;
-  border-radius: 20px;
-  border: none;
-  background: #F0807F;
-  cursor: pointer;
-  transition: 0.7s;
-  color: white;
-}
-
-button:active {
-  transform: translateY(4px);
-  transition: none;
-}
-
-.select a {
-  text-decoration: none;
-  color: black;
+.select a{
+    text-decoration: none;
+    color: black;
 }
 
