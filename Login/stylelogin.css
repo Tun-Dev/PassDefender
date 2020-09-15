@@ -85,3 +85,26 @@ button:active{
     margin-top: 20px;
     margin-bottom: 25px;
 }
+
+.secinput1{
+    width: 306px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.secinput2{
+    width: 306px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
