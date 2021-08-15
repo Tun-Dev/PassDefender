@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img1 {
+    width: 60px;
+  }
+  
+  .links a {
+    padding:  10px 17px;
+    margin: 0 .25rem;
+    color: black;
+    text-decoration: none;
+  }
+  .links a:hover{
+    background: #63635d;
+    color: white;
+    border-radius: .25rem;
+  }
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    box-shadow: 0 0 9px 0px #00000017;
+  }
+
+  @font-face{
+    font-family: "Graphik";
+    src: url("font/GraphikMedium.ttf");
+}
+
+@font-face{
+    font-family: "GraphikReg";
+    src: url("font/Graphik-Regular.ttf");
+}
+
+body{
+    font-family: Graphik;
+    background: #e4e4e1;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+.body1{
+    font-family: Graphik;
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    margin: 70px auto;
+}
+h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+button{
+    width: 138px;
+    height:40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background: #F0807F;
+    outline: none;
+    margin-bottom: 70px;
+}
+button:hover{
+    width: 138px;
+    height:40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid #F0807F;
+    background: none;
+    cursor: pointer;
+    transition: 0.7s;
+    color: white;
+}
+
+button:active{
+    transform: translateY(4px);
+    transition: none;
+}
+.select a{
+    text-decoration: none;
+    color: black;
+}
+.select{
+    display: inline-block;
+}
+
+.input1{
+    width: 306px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.secinput1{
+    width: 306px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.secinput2{
+    width: 306px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+p{
+    /* text-align: left; */
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width:400px){
+    .body1{
+        font-family: Graphik;
+        margin-top: 70px;
+        text-align: center;
+        width: 70%;
+        margin: 100px auto;
+    }
+    h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .img1{
+        width: 45px;
+    }
+}

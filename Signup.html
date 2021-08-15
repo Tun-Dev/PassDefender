@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylesignup.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title>PassDefender</title>
+</head>
+<body>
+    <div id="header">
+        <div class="img">
+          <a href="index.html"><img class="img1" src="images/PDlogo2.jpg" alt=""></a>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Login.php">Login</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+        <div id="openButton" class="mobile__hamburger">
+          <div></div>
+        </div>
+      </div>
+      <div id="myModal" class="mobile__nav__bg">
+        <div class="mobile__nav">
+          <div id="closeBtn" class="closeBtn">
+            <div></div>
+          </div>
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="Login.php">Login</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    <div class="body1">
+        <h1>PassDefender Sign Up</h1>
+
+        <div class="select">
+            <form action="registration.php" method="POST">
+                <p>First Name:</p>
+                <input class="input1" name="firstName" type="text" id="firstName"><br>
+                <p>Last Name:</p>
+                <input class="input1" name="lastName" type="text" id="lastName">
+                <p>Email:</p>
+                <input class="input1" name="email" type="text" id="email">
+                <p>What's your Genotype:</p>
+                <input class="input1" name="security1" type="text" id="security1">
+                <p>Favourite Colour:</p>
+                <input class="input1" name="security2" type="text" id="security2">
+                <p>Favourite Movie:</p>
+                <input class="input1" name="security3" type="text" id="security3">
+                <p>Favourite Sport:</p>
+                <input class="input1" name="security4" type="text" id="security4">
+                <p>Best Food:</p>
+                <input class="input1" name="security5" type="text" id="security5">
+                <p>Current Phone Brand:</p>
+                <input class="input1" name="security6" type="text" id="security6">
+                <button id="button" name="submit">Submit</button>
+                <h5>Already have an account? <a href="Login.php">Login</a></h5>
+                <div id="msg">
+                    <pre></pre>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script src="js/opennav.js"></script>
+</body>
+</html>
